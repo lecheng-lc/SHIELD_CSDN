@@ -1,2 +1,0 @@
-# SHIELD-CSDN
-chrome plugin
