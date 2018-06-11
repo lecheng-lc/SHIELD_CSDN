@@ -1,0 +1,15 @@
+{
+    "name": "leCheng",
+    "manifest_version": 2,
+    "version": "1.0",
+    "description": "CSDN",
+    "browser_action": {
+      "default_icon": "1.png"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://github.com/*","https://blog.csdn.net/*"],
+        "js": ["script.js"]
+      }
+    ]
+  }
